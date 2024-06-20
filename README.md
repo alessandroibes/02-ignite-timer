@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+# ignite-timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+Este projeto foi desenvolvido durante o módulo 02 do curso de ReacjJS da Rocketseat, módulo que aprofunda os conceitos em Hooks passando enquanto aborda outros assuntos como ContextAPI, useReducer, immer, dentro outros.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto utiliza Styled Components (https://styled-components.com/) para criar a estilização da aplicação. O Styled Components é uma biblioteca de CSS-in-JS que permite que a gente utilize o CSS dentro do JavaScript e em um formato parecido com os do React, adicionando muitas funcionalidades à estilização da aplicação.
 
-## Expanding the ESLint configuration
+## Bibliotecas utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [styled-components] e [@types/styled-components] (https://www.npmjs.com/package)
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```shell
+npm i styled-components
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```shell
+npm i @types/styled-components - D
+```
+
+## Para executar a aplicação
+
+Baixar dependências:
+
+```shell
+npm i
+```
+
+Executar o comando:
+
+```shell
+npm run dev
+```
+
+## Telas da aplicação
