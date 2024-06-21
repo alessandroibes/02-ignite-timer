@@ -37,6 +37,12 @@ npm i styled-components
 npm i react-router-dom
 ```
 
+- [phosphor-react] (https://www.npmjs.com/package/phosphor-react)
+
+```shell
+npm i phosphor-react
+```
+
 ### Bibliotecas usadas apenas para desenvolvimento
 
 - [@types/styled-components] (https://www.npmjs.com/package)
