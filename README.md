@@ -19,12 +19,22 @@ O ESLint possui uma enorme lista de rules (regras) que você pode configurar, e 
 
 Caso queira ver mais sobre como configurar o ESLint manualmente, você pode ver o guia de Getting Started do ESLint disponível no seguinte link: https://eslint.org/docs/user-guide/getting-started
 
+### Router
+
+A bibliote react-router-dom (https://reactrouter.com) é utilizada para prover o roteamento da aplicação.
+
 ## Bibliotecas utilizadas
 
 - [styled-components] (https://www.npmjs.com/package)
 
 ```shell
 npm i styled-components
+```
+
+- [react-router-dom] (https://www.npmjs.com/package/react-router-dom)
+
+```shell
+npm i react-router-dom
 ```
 
 ### Bibliotecas usadas apenas para desenvolvimento
