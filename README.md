@@ -23,6 +23,10 @@ Caso queira ver mais sobre como configurar o ESLint manualmente, você pode ver 
 
 A bibliote react-router-dom (https://reactrouter.com) é utilizada para prover o roteamento da aplicação.
 
+### Forms
+
+A biblioteca react-hook-form (https://react-hook-form.com/) é utilizada para recuperar os dados dos inputs dos formulários. Esta biblioteca permite trabalhar-mos com os formulários tanto de uma maneira **Controlled** quanto **Uncontrolled**.
+
 ## Bibliotecas utilizadas
 
 - [styled-components] (https://www.npmjs.com/package)
@@ -41,6 +45,12 @@ npm i react-router-dom
 
 ```shell
 npm i phosphor-react
+```
+
+- [react-hook-form] (https://www.npmjs.com/package/react-hook-form)
+
+```shell
+npm i react-hook-form
 ```
 
 ### Bibliotecas usadas apenas para desenvolvimento
