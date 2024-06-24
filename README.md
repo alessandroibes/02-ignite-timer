@@ -6,11 +6,11 @@ Este projeto foi desenvolvido durante o módulo 02 do curso de ReacjJS da Rocket
 
 ### Styled Components
 
-Este projeto utiliza Styled Components (https://styled-components.com/) para criar a estilização da aplicação. O Styled Components é uma biblioteca de CSS-in-JS que permite que a gente utilize o CSS dentro do JavaScript e em um formato parecido com os do React, adicionando muitas funcionalidades à estilização da aplicação.
+Este projeto utiliza **Styled Components** (https://styled-components.com/) para criar a estilização da aplicação. O Styled Components é uma biblioteca de CSS-in-JS que permite que a gente utilize o CSS dentro do JavaScript e em um formato parecido com os do React, adicionando muitas funcionalidades à estilização da aplicação.
 
 ### ESList
 
-O ESLint é usado neste projeto, pois o mesmo permite que a gente configure diversas regas para padronizar a organização do nosso código. Isso vai desde como deve ser o comportamento de quebras de linha, ponto-e-vírgula, vírgulas e até mesmo regras para nomeação de variáveis ou
+O **ESLint** é usado neste projeto, pois o mesmo permite que a gente configure diversas regas para padronizar a organização do nosso código. Isso vai desde como deve ser o comportamento de quebras de linha, ponto-e-vírgula, vírgulas e até mesmo regras para nomeação de variáveis ou
 plugins que ajudam (https://www.npmjs.com/package/eslint-plugin-react-hooks) a gente à não esquecer algumas regras do React.
 
 Caso queira ver as configurações utilizadas nesse plugin, você pode acessar o repositório oficial com o código dessas configurações para o React: https://github.com/Rocketseat/eslint-config-rocketseat/blob/main/react.js
@@ -21,11 +21,17 @@ Caso queira ver mais sobre como configurar o ESLint manualmente, você pode ver 
 
 ### Router
 
-A bibliote react-router-dom (https://reactrouter.com) é utilizada para prover o roteamento da aplicação.
+A biblioteca **react-router-dom** (https://reactrouter.com) é utilizada para prover o roteamento da aplicação.
 
 ### Forms
 
-A biblioteca react-hook-form (https://react-hook-form.com/) é utilizada para recuperar os dados dos inputs dos formulários. Esta biblioteca permite trabalhar-mos com os formulários tanto de uma maneira **Controlled** quanto **Uncontrolled**.
+A biblioteca **react-hook-form** (https://react-hook-form.com/) é utilizada para recuperar os dados dos inputs dos formulários. Esta biblioteca permite trabalhar-mos com os formulários tanto de uma maneira **Controlled** quanto **Uncontrolled**.
+
+A biblioteca **zod** (https://github.com/colinhacks/zod) é utilizada em conjunto com o react-hook-form para adicionar mais camadas de validação aos formulários. A biblioteca zod foi utilizada por trazer um pouco mais de integração com o TypeScript (IntelliSense).
+
+Para a integração do react-hook-form com bibliotecas de validação, foi necessário usar a biblioteca **@hookform/resolvers**.
+
+OBS: a validação é utilizada apenas para entendimento do funcionamento das validações usando a biblioteca react-hook-form, visto que a mesma não é realmente necessário neste projeto, pois as validações necessárias já são realizadas pelo próprio HTML.
 
 ## Bibliotecas utilizadas
 
@@ -51,6 +57,14 @@ npm i phosphor-react
 
 ```shell
 npm i react-hook-form
+```
+
+- [zod] (https://www.npmjs.com/package/zod)
+- [@hookform/resolvers] (https://www.npmjs.com/package/@hookform/resolvers)
+
+```shell
+npm i zod
+npm i @hookform/resolvers
 ```
 
 ### Bibliotecas usadas apenas para desenvolvimento
