@@ -67,6 +67,12 @@ npm i zod
 npm i @hookform/resolvers
 ```
 
+- [date-fns] (https://www.npmjs.com/package/date-fns)
+
+```shell
+npm i date-fns
+```
+
 ### Bibliotecas usadas apenas para desenvolvimento
 
 - [@types/styled-components] (https://www.npmjs.com/package)
