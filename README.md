@@ -114,3 +114,15 @@ npm run dev
 ```
 
 ## Telas da aplicação
+
+### Tela de tarefas quando não há tarefa em andamento
+
+![alt text](prints/tasks_screen_without_content.png)
+
+### Tela de tarefas com tarefa em andamento
+
+![alt text](prints/tasks_screen_with_content.png)
+
+### Tela de histórico de tarefas
+
+![alt text](prints/history_screen.png)
