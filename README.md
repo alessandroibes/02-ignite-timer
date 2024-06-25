@@ -73,6 +73,12 @@ npm i @hookform/resolvers
 npm i date-fns
 ```
 
+- [immer] (https://www.npmjs.com/package/immer)
+
+```shell
+npm i immer
+```
+
 ### Bibliotecas usadas apenas para desenvolvimento
 
 - [@types/styled-components] (https://www.npmjs.com/package)
